@@ -1,0 +1,1460 @@
+<!--DTD 설정-->
+<!DOCTYPE html> <!--html5 기반으로 만들어진 사이트-->
+
+
+
+
+
+<!--[if IE 8 ]><html class="ie ie8" lang="ko"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="ko"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ko"> <!--<![endif]-->
+
+
+    <head>
+        <title>아라캐터리</title>
+		
+		<!--언어표시-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<!--웹 문서에 대한 제작자 설정-->
+		<meta name="author" content="아라캐터리">
+	
+		<!--웹 문서에 대한 설명 설정-->
+		<meta name="description" content="뱅갈고양이 사이트입니다.">
+	
+		<!--웹 문서에 대한 키워드 설정-->
+		<meta name="keywords" content="아라캐터리,뱅갈고양이">  
+		
+        <!-- 모바일에 맞춘 뷰포트 웹페이지 초기비율 최소비율 설정 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<!--브라우저 호환성 설정 해당 브라우저에서 지원하는 가장 최신 버전의 방식으로 웹 페이지 보여줌-->
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+		
+		<!--HTML5 Shiv 익스플로러 구버젼에서 인식을 못해서-->
+
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.js"></script>
+		<![endif]-->		
+	
+		
+		
+		
+        <!-- 파비콘 -->
+		<!--<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+        <link rel="apple-touch-icon-precomposed" href="img/favicon.ico">-->
+		
+        <!-- 구글 폰트 스타일 -->
+        <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,100,700%7Dosis:400,500" rel="stylesheet">
+		
+        <!-- css 연동-->
+		<!-- 부트스트랩 css -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+         <!-- 애니메이트 css -->
+        <link href="css/animate.css" rel="stylesheet">
+		<!-- 아이콘 css -->
+        <link href="css/icons.css" rel="stylesheet">
+		<!-- Font awesome css-->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+		<!-- Owl carousel css -->
+        <link href="css/owl.carousel.css" rel="stylesheet">
+		<!-- magnific popup css -->
+        <link href="css/magnific-popup.css" rel="stylesheet">
+		<!-- margin and padding css 초기화 -->
+        <link href="css/vertical.min.css" rel="stylesheet">
+
+		<!-- main css -->
+		<link href="css/style.css" rel="stylesheet">
+		
+
+    </head>
+	
+    <body>
+		
+        <div id="top"></div>
+		
+		<!-- 모달 트리거 그리고 버튼-->
+            <a data-tooltip="Click Me" data-toggle="modal" data-target="#topsection" href="#" class="tooltip-bottom btn-top-info scroll"></a>  
+            
+			<!-- 탑 인포 모달 -->
+            <div class="modal fade" id="topsection"  tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="top-content modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="pull-left top-info">
+                                        <p> Add Anything Here Or Just Remove it..</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="pull-right top-info">
+                                        <p> <a href="#"><i class="fa fa-phone"></i>(031) 204 3119</a> 
+                                            <a href="mailto:amphi@naver.com"><i class="fa fa-envelope"></i>amphi@naver.com</a> 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<!--//탑 모달 엔드-->
+			
+			<!-- 네비게이션 구역 -->
+			<nav class="main-nav white transparent stick-fixed">
+				
+				<div class="full-wrapper relative clearfix">
+				
+					<!--로고-->
+					<div class="nav-logo-wrap"><a href="index.html" class="logo" style="font-weight:bold; color:#000;">Ara Cattery</a></div>
+					
+					<!-- 모바일 바 -->
+					<div class="navbar-mobile"><i class="fa fa-bars"></i></div>
+					<!-- //모바일 바 -->
+					
+					<!-- 메인메뉴 -->
+					<div class="inner-nav navbar-desktop">
+						<ul class="clearlist scroll scroll-nav">
+							<li class="active"><a href="#hero">Home</a></li>
+							<!-- 서브 메뉴 -->
+							<li>
+								<a href="#" class="menu-has-sub">Pages<i class="fa fa-angle-down"></i></a>
+								<!-- 서브메뉴 -->
+								<ul class="menu-sub">
+									<li>
+										<a href="#" class="menu-has-sub">Blog <i class="fa fa-angle-right right"></i></a>
+										<ul class="menu-sub">
+											<li><a target="_blank" href="blog.html">Blog Post</a></li>
+											<li><a target="_blank" href="blog-left-sidebar.html">Blog Left SideBar</a></li>
+											<li><a target="_blank" href="blog-no-sidebar.html">Blog No SideBar</a></li>
+										</ul>
+									</li>  
+									<li>
+										<a href="#" class="menu-has-sub">Blog Single <i class="fa fa-angle-right right"></i></a>
+										<ul class="menu-sub">
+											<li><a target="_blank" href="blog-single.html">Blog Single</a></li>
+											<li><a target="_blank" href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
+											<li><a target="_blank" href="blog-single-no-sidebar.html">Blog Single No Sidebar</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#" class="menu-has-sub">Portfolio <i class="fa fa-angle-right right"></i></a>
+										<ul class="menu-sub">
+											<li><a class="popup-with-zoom-anim" href="#portfolio-dialog">Portfolio Dialogue </a></li>
+										</ul>
+									</li>								
+								</ul>
+								<!--//서브메뉴-->
+							</li>
+							<!-- 서브메뉴...-->
+							<li><a href="#about">About</a></li>
+							<li><a href="#service">Service</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#team">Team</a></li>
+							<li><a href="#pricing">Pricing</a></li>
+							<li><a href="#blog">Blog</a></li>
+							<li><a href="#contacts">Contacts</a></li>
+						</ul>
+					</div>
+					<!-- 메인 메뉴 엔드 -->
+					
+				</div>
+			</nav>
+			<!-- //네비게이션 구역 -->
+		
+		
+			<!--스타트 섹션구역-->
+				 <section id="hero" class="full-screen">
+					 <!--백그라운드 섹션구역-->
+					 <!--데이타 임의 지정 슬라이드-->
+					<div data-top="transform: translate3d(0px, 0px, 0px)" data-top-bottom="transform: translate3d(0px, -200px, 0px)" data-anchor-target="#hero" class="parallax-hero full-screen bg-slideshow-wrapper">
+					<div data-background="img/full-width/bg-1.jpg" class="slideshow slide-1 bg-dark-10 bg-img"></div>
+					<div data-background="img/full-width/bg-2.jpg" class="slideshow slide-2 bg-dark-10 bg-img"></div>
+					<div data-background="img/full-width/bg-3.jpg" class="slideshow slide-3 bg-dark-10 bg-img"></div>
+					</div>
+					<div class="hero-content">
+						<div class="hero-content-inner">
+							<h1 data-wow-delay="0.5s" data-wow-duration="3s" class="hs-line-4 wow fadeInDown">
+							Ara Cattery 입니다.
+							</h1>
+							<div data-wow-delay="0.5s" data-wow-duration="3s" class="wow fadeInUp">
+							<a href="#pricing" class="scroll btn btn-coffee btn-border-w btn-round btn-medium">더보기</a>
+							<span>&nbsp; &nbsp;</span>
+							<a href="#about" class="scroll btn btn-coffee btn-border-w btn-round btn-medium mt-xxs-20"><i class="fa fa-user"></i> 소개</a>
+							</div>
+						</div>
+					</div>
+					<a href="#page" data-start="display: block" data-100-start="display: none" class="btn-scroll-down scroll"></a>
+				 </section>
+			 <!-- //스타트 섹션 구역 -->
+		 
+		 
+			 <!--메인 페이지 시작 -->
+			 <div id="page" class="page">
+			 
+				<!--어바웃 섹션 시작-->
+				<section id="about">
+					<div class="container">
+						<div class="row mt-40 mt-xs-20">
+							<div class="col-md-12 text-center section-tittle">
+								<i class="higl fa fa-male"></i>
+								<h3>About Us</h3>
+								<div class="section-line"> </div>
+							</div>
+						</div>
+						<div class="row mt-30 mt-xs-30">
+							<div class="col-md-8 col-md-offset-2 text-center">
+								<img src="img/team/member1.jpg" alt="hash theme" class="resp">
+								<blockquote data-wow-delay="0.1s" data-wow-duration="1s" class="about-quote wow fadeInUp">
+									<p>아라캐터리에 오신것을 환영합니다. </p>
+									<footer class="about-quote-author"><span>Myung Shin Kim</span> - CEO</footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<!--  about us collapse -->
+					<div class="container text-center">
+					
+					<!--  about us collapse Button -->
+						<a data-toggle="collapse" data-target="#about-collapse" class="btn btn-coffee btn-border btn-large mt-20">Learn More About Us</a><br>
+						<a data-toggle="collapse" data-target="#about-collapse"><i class="fa fa-angle-double-down"></i> </a>
+					<!--  about us collapse Button End -->
+					
+						<div id="about-collapse" class="collapse">
+							<div class="row mt-20 mt-xs-20">
+								<!-- item start -->
+								<div class="col-xs-12 col-sm-6 col-lg-4 col-md-4 mb-xxs-20">
+									<div class="about-us-box">
+										<div class="about-us-icon">
+											<div class="about-us-image">
+												<div class="icon icon--heart"></div>
+											</div>
+											<div class="about-us-info">
+												<h2 class="about-us-title">사랑</h2>
+												<p>
+													사랑으로 기르고 있습니다.
+												</p>
+												<div class="about-us-more">
+													<a href="#" title="Title Link">
+													Read More <i class="fa fa-angle-double-right"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="space"></div>
+									</div>
+								</div>
+								<!-- item end -->
+								<!-- item start -->
+								 <div class="col-xs-12 col-sm-6 col-lg-4 col-md-4 mb-xxs-20">
+									<div class="about-us-box">
+										<div class="about-us-icon">
+											<div class="about-us-image">
+												<div class="icon icon--code"></div>
+											</div>
+											<div class="about-us-info">
+												<h2 class="about-us-title">믿음</h2>
+												<p>
+													좋은 재료만을 주며 원칙을 가지고 기르고 있습니다.
+												</p>
+												<div class="about-us-more">
+													<a href="#" title="Title Link">
+													Read More <i class="fa fa-angle-double-right"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="space"></div>
+									</div>
+								</div>
+								 <!-- item end -->
+								 <!-- item start -->
+								 <div class="col-xs-12 col-sm-6 col-lg-4 col-md-4 mb-xxs-20">
+									<div class="about-us-box">
+										<div class="about-us-icon">
+											<div class="about-us-image">
+												<div class="icon icon--laptop-phone"></div>
+											</div>
+											<div class="about-us-info">
+												<h2 class="about-us-title">소망</h2>
+												<p>
+													좋은 주인에게 보내고자 하는 소망을 가지고 있습니다.
+												</p>
+												<div class="about-us-more">
+													<a href="#" title="Title Link">
+													Read More <i class="fa fa-angle-double-right"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="space"></div>
+									</div>
+								</div>
+								<!-- item end -->
+							</div>
+						</div>
+					</div>
+					<!--End about us collapse  -->
+					
+					<!-- skill section   -->
+					<div id="skills" class="small-section bg-light mt-80 mt-xs-80">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 typed-letter">
+									<h4 class="heading-font left-heading"><strong>뱅갈고양이를</strong> 만나보세요<br>
+										이름을 불러주세요 
+										<strong><span data-typer-targets="이름1, 이름2, 이름3, 이름4, 이름5, 이름6">
+										</span></strong>.
+									</h4>
+								</div>
+							</div>
+							<div class="row mt-60">
+								<!-- skill set -->
+								<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms">
+									<div class="skill-chart barColor">
+										<span class="chart" data-percent="95">
+										<span class="percent"></span>
+										</span>
+										<h4 class="heading-font"><i class="fa fa-wordpress"></i> 주인을 만난 뱅갈수</h4>
+									</div>
+								</div>
+								<!-- end skill set -->
+								<!-- skill set -->
+								<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms">
+									<div class="skill-chart">
+										<span class="chart" data-percent="85">
+										<span class="percent"></span>
+										</span>
+										<h4 class="heading-font"><i class="fa fa-joomla"></i> 현재 뱅갈수</h4>
+									</div>
+								</div>
+								<!-- end skill set -->
+								<!-- skill set -->
+								<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms">
+									<div class="skill-chart">
+										<span class="chart" data-percent="75">
+										<span class="percent"></span>
+										</span>
+										<h4 class="heading-font"><i class="fa fa-html5"></i>  암컷</h4>
+									</div>
+								</div>
+								<!-- end skill set -->
+								<!-- skill set -->
+								<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms">
+									<div class="skill-chart">
+										<span class="chart" data-percent="65">
+										<span class="percent"></span>
+										</span>
+										<h4 class="heading-font"><i class="fa fa-android"></i> 수컷</h4>
+									</div>
+								</div>
+								<!-- end skill set -->
+							</div>
+						</div>
+					</div>
+					<!-- skill section end -->
+					
+					<!-- dummy text and fun fcats -->
+					<div class="container">
+						<div class="row mt-80 mt-xs-40">
+						
+							<!-- dummy text -->
+							<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 dummy-text">
+								<p> 고양이들의 습성<b>그루밍</b> 자세히는 모르겠지만	
+								<span class="dummy-tooltip tooltip-effect-1"><span class="tooltip-item">그루밍</span><span class="tooltip-content clearfix">
+									<span class="co-md-12 tooltip-text"><strong>"그루밍이란</strong>, 
+									이런것들.......". 
+									</span></span></span>
+									고양이들의 습성은 이렇습니다.
+								</p>
+							</div>
+							<!-- dummy text end -->
+							
+							<!-- fun facts -->
+							<div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 mt-xs-40">
+								<!-- item start -->
+								<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 mb-xs-20 text-center">
+									<div class="fact-item">
+										<div class="fact-number"><span class="focus-number">350</span></div>
+										<div class="icon icon--user"></div>
+										<h5 class="fact-desc heading-font">잠자는시간</h5>
+									</div>
+								</div>
+								<!-- item end -->
+								<!-- item start -->
+								<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 mb-xs-20 text-center">
+									<div class="fact-item">
+										<div class="fact-number"><span class="focus-number">1000</span></div>
+										<div class="icon icon--thumbs-up"></div>
+										<h5 class="fact-desc heading-font">활동하는시간</h5>
+									</div>
+								</div>
+								<!-- item end -->
+								<!-- item start -->
+								<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 mb-xs-20 text-center">
+									<div class="fact-item">
+										<div class="fact-number"><span class="focus-number">500</span></div>
+										<div class="icon icon--alarm"></div>
+										<h5 class="fact-desc heading-font">밥먹는시간</h5>
+									</div>
+								</div>
+								<!-- item end -->
+								<!-- item start -->
+								<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 mb-xs-20 text-center">
+									<div class="fact-item">
+										<div class="fact-number"><span class="focus-number">1500</span></div>
+										<div class="icon icon--file-add"></div>
+										<h5 class="fact-desc heading-font">장난치는시간</h5>
+									</div>
+								</div>
+								<!-- item end -->
+							</div>
+							<!-- fun facts end -->
+							
+						</div>
+					</div>
+				</section>
+				<!-- section about end -->
+				
+				<!--뱅갈정보-->
+				<section id="service" class="pb-40">
+					<div class="container"><!--컨테이너-->
+					
+						<div class="row mt-40 mt-xs-20">
+							<div class="col-md-12 text-center">
+								<h3>뱅갈 <b>정보</b></h3>
+								<div class="section-line"></div>
+							</div>
+						</div>
+						
+						<div data-wow-delay="0.1s" data-wow-duration="2s" class="row mt-60 mt-xs-30 wow fadeIn">
+						
+							<!--섹션1-->
+							<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mb-10">
+								<div class="service-item">
+									<div class="service-item-hover">
+										<div class="service-item-info">
+											<div class="service-item-line"></div>
+											<p>뱅갈은 이렇습니다....</p>
+											<a class="btn btn-coffee btn-border btn-small">더보기</a>
+										</div>
+										<div class="service-item-mask"></div>
+									</div>
+									<div class="service-item-img">
+										<div class="icon icon--bicycle"></div>
+										<h5 class="heading-font">뱅갈정보</h5>
+									</div>
+								</div>
+							</div>
+							<!-- //섹션1 -->
+							
+							<!-- 섹션2 -->
+							<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mb-10">
+								<div class="service-item">
+									<div class="service-item-hover">
+										<div class="service-item-info">
+											<div class="service-item-line"></div>
+											<p>뱅갈은 이렇습니다....</p>
+											<a class="btn btn-coffee btn-border btn-small">더보기</a>
+										</div>
+										<div class="service-item-mask"></div>
+									</div>
+									<div class="service-item-img">
+										<div class="icon icon--laptop"></div>
+										<h5 class="heading-font">뱅갈정보</h5>
+									</div>
+								</div>
+							</div>
+							<!-- //섹션2 -->
+							
+							<!-- 섹션3 -->
+							<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mb-10">
+								<div class="service-item">
+									<div class="service-item-hover">
+										<div class="service-item-info">
+											<div class="service-item-line"></div>
+											<p>뱅갈은 이렇습니다....</p>
+											<a class="btn btn-coffee btn-border btn-small">더보기</a>
+										</div>
+										<div class="service-item-mask"></div>
+									</div>
+									<div class="service-item-img">
+										<div class="icon icon--cog"></div>
+										<h5 class="heading-font">뱅갈정보</h5>
+									</div>
+								</div>
+							</div>
+							<!-- //섹션3 -->
+							
+							<!-- 섹션4 -->
+							<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mb-10">
+								<div class="service-item">
+									<div class="service-item-hover">
+										<div class="service-item-info">
+											<div class="service-item-line"></div>
+											<p>뱅갈은 이렇습니다....</p>
+											<a class="btn btn-coffee btn-border btn-small">더보기</a>
+										</div>
+										<div class="service-item-mask"></div>
+									</div>
+									<div class="service-item-img">
+										<div class="icon icon--camera"></div>
+										<h5 class="heading-font">뱅갈정보</h5>
+									</div>
+								</div>
+							</div>
+							<!-- //섹션4 -->
+							
+							<!-- 섹션5 -->
+							<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mb-10">
+								<div class="service-item">
+									<div class="service-item-hover">
+										<div class="service-item-info">
+											<div class="service-item-line"></div>
+											<p>뱅갈은 이렇습니다....</p>
+											<a class="btn btn-coffee btn-border btn-small">더보기</a>
+										</div>
+										<div class="service-item-mask"></div>
+									</div>
+									<div class="service-item-img">
+										<div class="icon icon--select"></div>
+										<h5 class="heading-font">뱅갈정보</h5>
+									</div>
+								</div>
+							</div>
+							<!-- //섹션5 -->
+							
+							<!-- 섹션6 -->
+							<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mb-10">
+								<div class="service-item">
+									<div class="service-item-hover">
+										<div class="service-item-info">
+											<div class="service-item-line"></div>
+											<p>뱅갈은 이렇습니다....</p>
+											<a class="btn btn-coffee btn-border btn-small">더보기</a>
+										</div>
+										<div class="service-item-mask"></div>
+									</div>
+									<div class="service-item-img">
+										<div class="icon icon--users"></div>
+										<h5 class="heading-font">뱅갈정보</h5>
+									</div>
+								</div>
+							</div>
+							<!-- //섹션6 -->
+						</div>
+						
+					</div><!--컨테이너-->
+				</section>
+				<!--//뱅갈정보-->
+				
+				<!--뱅갈고양이소개-->
+				<section id="portfolio" class="bg-light pb-0">
+					<div class="container">
+						<div class="row mt-40 mt-xs-20">
+							<div class="col-md-12 text-center">
+								<h3>뱅갈 <b>가족들</b></h3>
+								<div class="section-line"> </div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center mt-30 mt-xs-10">
+								<p>뱅갈에 대한 설명</p>
+							</div>
+						</div>
+					</div>
+					
+					<!--필터링 -->
+					<ul class="filter text-center mt-60 mt-xs-30">
+						<li class="active"><a href="#" data-filter="*">전체<sup><small>- 8</small></sup></a></li>
+						<li><a href="#" data-filter=".brochure">암컷<sup><small>- 2</small></sup></a></li>
+						<li><a href="#" data-filter=".design">수컷 <sup><small>- 2</small></sup></a></li>
+						<li><a href="#" data-filter=".flyer">성묘<sup><small>- 4</small></sup></a></li>
+						<li><a href="#" data-filter=".flyer">baby <sup><small>- 4</small></sup></a></li>						
+					</ul>
+					<!--필터링-->
+					
+					<div class="container"><!--컨테이너-->
+						<div data-wow-delay="0.1s" data-wow-duration="2s" class="work-container mt-40 mb-30 mt-xs-20 wow fadeIn">
+							<div class="row">
+							
+							<!-- 첫아이템 -->
+								<div class="col-md-3 col-sm-4 col-xs-12 work-item brochure">
+								
+									<div class="figure effect-hover">
+										<img src="img/portfolio/img-1.jpg" alt="img01">
+										<div class="figcaption">
+											<h5 class="heading-font">이름1</h5>
+											<p>설명</p>
+										</div>
+										<a class="popup-with-zoom-anim" href="#portfolio-dialog">Open with fade-zoom animation</a>
+									</div>
+									
+									<!--숨겨있던 다이아로그창 숨기기-->
+									<div id="portfolio-dialog" class="zoom-anim-dialog mfp-hide">
+										<div class="container"><!--컨테이너-->
+										
+										<!-- 숨겨진 다이아로그 생김-->
+											<div class="row">
+												<div class="portfolio-navigation pt-30 pb-30 clearfix">
+													<div class="col-md-4 col-sm-4 col-xs-12">
+														<div class="project-main-tittle text-left pull-left">
+															<h4 class="heading-font"><strong>이름1</strong> </h4>
+															<p>이름1에 대한 설명</p>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4 col-xs-12">
+														<div class="nav-close text-center">
+															<a class="popup-modal-dismiss" title="Close" href="#">
+																<div class="icon icon--cross"></div>
+															</a>
+														</div>
+												    </div>
+													<div class="col-md-4 col-sm-4 col-xs-12">
+														<div class="live-preview text-right pull-right">
+															<a class="btn btn-coffee btn-border btn-large">Contact Us</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<!-- 뱅갈고양이 중간에 사진들 -->
+											<div class="row mt-30">
+											<!-- 사진 슬라이더  -->
+												<div class="col-md-7">
+													<div class="work-full-slider owl-carousel">
+														<div class="item"><img class="resp" src="img/portfolio/single-img-1.jpg" alt="The Last of us"></div>
+														<div class="item"><img class="resp" src="img/portfolio/single-img-2.jpg" alt="The Last of us"></div>
+														<div class="item"><img class="resp" src="img/portfolio/single-img-3.jpg" alt="The Last of us"></div>
+														<div class="item"><img class="resp" src="img/portfolio/single-img-4.jpg" alt="The Last of us"></div>
+													</div>
+												</div><!-- //사진 슬라이더  -->
+												
+												<!--뱅갈에 대한 설명-->
+												<div class="col-md-5">
+													<h5 class="heading-font">뱅갈에 대한 설명</h5>
+													<p class="first-letter"> 이름1은 이렇습니다.
+													</p>
+													<h5 class="heading-font">정보</h5>
+													<div class="work-detail">
+														<p><strong>이름</strong> <a href="#" target="_blank"> 제우스</a></p>
+														<p><strong>성별</strong> 수컷 </p>
+														<p><strong>정보1</strong> 잠자기, 먹기 </p>
+														<p><strong>Site:</strong><a href="#" target="_blank">네이버....블로그</a></p>
+														<p><strong>공유:</strong>
+															<a class="project-social-share social-fb" href="#" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+															<a class="project-social-share social-tw" href="#" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+															<a class="project-social-share social-lk" href="#" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+															<a class="project-social-share social-em" href="#" target="_blank" title="Email"><i class="fa fa-envelope"></i></a>
+															<a class="project-social-share social-gp" href="#" target="_blank" title="Google+"><i class="fa fa-google-plus"></i></a>
+														</p>
+													</div>
+												</div><!--//뱅갈에 대한 설명-->
+											</div><!-- //뱅갈고양이 중간에 사진들 -->
+											
+											<!-- 정보에 대한 디테일 -->
+											<div class="row mt-50 mb-50">
+												<div class="col-md-12">
+													<div class="tabbable-panel">
+														<div class="tabbable-line">
+															<ul class="nav nav-tabs ">
+																<li class="active">
+																	<a href="#tab_default_1" data-toggle="tab">
+																	부연설명1</a>
+																</li>
+																<li>
+																	<a href="#tab_default_2" data-toggle="tab">
+																	부연설명2</a>
+																</li>
+																<li>
+																	<a href="#tab_default_3" data-toggle="tab">
+																	Video </a>
+																</li>
+															</ul>
+															<div class="tab-content">
+																<div class="tab-pane active" id="tab_default_1">
+																	<p>
+																	부연설명1
+																	</p>
+																</div>
+																<div class="tab-pane" id="tab_default_2">
+																	<p> <i class="fa fa-check-circle-o"></i>
+																	주의사항1
+																	</p>
+																	<p> <i class="fa fa-check-circle-o"></i>
+																	주의사항2
+																	</p>
+																</div>
+																<div class="tab-pane" id="tab_default_3"><!--동영상-->
+																	<div class="blog-image">
+																		<iframe src="http://player.vimeo.com/video/128243441?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="1170" height="658" allowfullscreen>
+																		</iframe>
+																	</div>
+																</div><!--//동영상-->
+															</div>
+														</div>
+													</div>
+												</div>
+											</div><!-- //정보에 대한 디테일 -->
+											
+											<!--다른아이들-->
+											<div class="row">
+												<div class="col-md-12 ">
+													<h4 class="heading-font left-heading"><strong>최근</strong> </h4>
+												</div>
+											</div>
+											
+											<div class="row">
+												<!--이름2-->
+												<div class="col-md-3 col-sm-4 work-item-recent design">
+													<div class="figure-recent effect-hover-recent">
+														<img src="img/portfolio/img-2.jpg" alt="img01">
+														<div class="figcaption-recent">
+															<h5 class="heading-font">이름2</h5>
+															<p>이름2</p>
+														</div>
+														<a href="#">설명</a>
+													</div>
+												</div>
+												<!--이름3-->
+												<div class="col-md-3 col-sm-4 work-item-recent design">
+													<div class="figure-recent effect-hover-recent">
+														<img src="img/portfolio/img-3.jpg" alt="img01">
+														<div class="figcaption-recent">
+															<h5 class="heading-font">이름3</h5>
+															<p>이름3</p>
+														</div>
+														<a href="#">설명</a>
+													</div>
+												</div>
+												<!--이름4-->
+												<div class="col-md-3 col-sm-4 work-item-recent design">
+													<div class="figure-recent effect-hover-recent">
+														<img src="img/portfolio/img-5.jpg" alt="img01">
+														<div class="figcaption-recent">
+															<h5 class="heading-font">이름4</h5>
+															<p>이름4</p>
+														</div>
+														<a href="#">설명</a>
+													</div>
+												</div>
+												<!-- item -->
+												<div class="col-md-3 col-sm-4 work-item-recent design">
+													<div class="figure-recent effect-hover-recent">
+														<img src="img/portfolio/img-4.jpg" alt="img01">
+														<div class="figcaption-recent">
+															<h5 class="heading-font">이름5</h5>
+															<p>이름5</p>
+														</div>
+														<a href="#">설명</a>
+													</div>
+												</div>
+											</div>
+											
+											<!--다이아로그 바닥-->
+											<div class="row">
+												<div class="portfolio-navigation pt-30 pb-30 clearfix">
+												
+													<div class="col-md-6 col-sm-6 col-xs-12">
+														<div class="nav-close pull-left">
+															<a class="popup-modal-dismiss" title="close" href="#">
+																<div class="icon icon--cross"></div>
+															</a>
+														</div>
+													</div>
+													
+													<div class="col-md-6 col-sm-6 col-xs-12">
+														<div class="live-preview pull-right">
+															<a class="btn btn-coffee btn-border btn-large">펼쳐보기</a>
+														</div>
+													</div>
+												</div>
+											</div><!--//바닥-->
+											
+										</div><!--//컨테이너-->
+									</div>
+									<!--//숨겨있던 다이아로그창 숨기기-->
+									
+								</div><!--브로셔-->
+								<!--//섹션1 -->
+								
+								
+								<!-- 섹션2 -->
+								<div class="col-md-3 col-sm-4 col-xs-12 work-item design">
+									<div class="figure effect-hover">
+										<img src="img/portfolio/img-2.jpg" alt="img01">
+										<div class="figcaption">
+											<h5 class="heading-font">이름2</h5>
+											<p>이름2</p>
+										</div>
+										<a href="img/portfolio/img-2.jpg" class="work-gallery mfp-image mag">더보기</a>
+									</div>
+								</div>
+								<!-- //섹션2 -->
+								
+								<!-- 섹션3 -->
+								<div class="col-md-3 col-sm-4 col-xs-12 work-item flyer">
+									<div class="figure effect-hover">
+										<img src="img/portfolio/img-3.jpg" alt="img01">
+										<div class="figcaption">
+											<h5 class="heading-font">이름3</h5>
+											<p>이름3</p>
+										</div>
+										<a href="#" class="work-gallery mfp-iframe">더보기</a>  
+									</div>
+								</div>
+								<!-- //섹션3 -->
+								
+								
+								<!-- 섹션4 -->
+								<div class="col-md-3 col-sm-4 col-xs-12 work-item brochure">
+									<div class="figure effect-hover">
+										<img src="img/portfolio/img-4.jpg" alt="img01">
+										<div class="figcaption">
+											<h5 class="heading-font">이름4</h5>
+											<p>이름4</p>
+										</div>
+										<a href="#" class="work-gallery mfp-iframe">더보기</a>   
+									</div>
+								</div>
+								<!-- //섹션4 -->
+								
+								
+								<!-- 섹션5 -->
+								<div class="col-md-3 col-sm-4 col-xs-12 work-item design">
+									<div class="figure effect-hover">
+										<img src="img/portfolio/img-5.jpg" alt="img01">
+										<div class="figcaption">
+											<h5 class="heading-font">이름5</h5>
+											<p>이름5</p>
+										</div>
+										<a href="img/portfolio/img-5.jpg" class="work-gallery mfp-image mag">더보기</a>
+									</div>
+								</div>
+								<!-- //섹션5 -->
+								
+								
+								<!-- 섹션6 -->
+								<div class="col-md-3 col-sm-4 col-xs-12 work-item flyer">
+									<div class="figure effect-hover">
+										<img src="img/portfolio/img-6.jpg" alt="img01">
+										<div class="figcaption">
+											<h5 class="heading-font">이름6</h5>
+											<p>이름6</p>
+										</div>
+										<a href="img/portfolio/img-6.jpg" class="work-gallery mfp-image">더보기</a>
+									</div>
+								</div>
+								<!-- //섹션6 -->
+								
+								
+								<!-- 섹션7 -->
+								<div class="col-md-3 col-sm-4 col-xs-12 work-item flyer">
+									<div class="figure effect-hover">
+										<img src="img/portfolio/img-7.jpg" alt="img01">
+										<div class="figcaption">
+											<h5 class="heading-font">이름7</h5>
+											<p>이름7</p>
+										</div>
+										<a href="img/portfolio/img-7.jpg" class="work-gallery mfp-image">더보기</a>
+									</div>
+								</div>
+								<!-- //섹션7 -->
+								
+								
+								<!-- 섹션8 -->
+								<div class="col-md-3 col-sm-4 col-xs-12 work-item flyer">
+									<div class="figure effect-hover">
+										<img src="img/portfolio/img-8.jpg" alt="img01">
+										<div class="figcaption">
+											<h5 class="heading-font">이름8</h5>
+											<p>이름8</p>
+										</div>
+										<a href="img/portfolio/img-8.jpg" class="work-gallery mfp-image">더보기</a>
+									</div>
+								</div>
+								<!-- //섹션8 -->
+								
+								
+							</div><!--row-->
+						</div>
+					</div><!--컨테이너-->
+					
+					<!--문의해주세요-->
+					<div class="small-section bg-dark call-to-action-d">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-7">
+									<h4 class="heading-font">저희에게 연락주세요</h4>
+									<h5>뱅갈고양이에 대해서 궁금하신 부분이 있으시면 연락주세요.</h5>
+								</div>
+							   <div class="col-sm-5 text-center animate-e">
+								<a href="#contacts" class="scroll btn btn-coffee btn-border-w btn-large mt-20">Contact Us</a>
+							   </div>
+							</div>
+						</div>
+					</div>
+					<!--//문의해주세요-->
+					
+				</section>
+				<!--//뱅갈고양이소개-->
+				
+				<!-- 분양고양이 -->
+				<section id="team">
+					<div class="container">
+					
+						<div class="row mt-20 mt-xs-10">
+							<div class="col-md-12 text-center">
+								<h3>분양고양이</h3>
+								<div class="section-line"></div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center mt-10 mt-xs-10">
+								<p>마음씨 따뜻한 집사님을 찾습니다.</p>
+							</div>
+						</div>
+						
+						<div class="row mt-80 mt-xs-40 mb-80 pb-60 mb-xs-40 team-slider">
+						
+							<!-- 섹션1 -->
+							<div class="team-member pb-60">
+								<div class="col-md-3 col-sm-3 col-xs-12 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 member-thumb text-center">
+									<img class="img-responsive img-center" src="img/team/cat1.jpg" alt="" />
+									<h4>뱅갈1</h4>
+								</div>
+								<div class="col-md-7 col-sm-7 col-xs-12">
+									<div class="member-details">
+										<p>좋은 주인님을 찾습니다.</p>
+										<ul class="member-socials">
+											<li><a href="amphi@naver.com"><i class="fa fa-envelope fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!--//섹션1-->
+							
+							<!-- 섹션2 -->
+							<div class="team-member pb-60">
+								<div class="col-md-3 col-sm-3 col-xs-12 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 member-thumb text-center">
+									<img class="img-responsive img-center" src="img/team/cat2.jpg" alt="" />
+									<h4>뱅갈2</h4>
+								</div>
+								<div class="col-md-7 col-sm-7 col-xs-12">
+									<div class="member-details">
+										<p>좋은 주인님을 찾습니다.</p>
+										<ul class="member-socials">
+											<li><a href="amphi@naver.com"><i class="fa fa-envelope fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- //섹션2 -->
+							
+							<!-- 섹션3 -->
+							<div class="team-member pb-60">
+								<div class="col-md-3 col-sm-3 col-xs-12 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 member-thumb text-center">
+									<img class="img-responsive img-center" src="img/team/cat3.jpg" alt="" />
+									<h4>뱅갈3</h4>
+								</div>
+								<div class="col-md-7 col-sm-7 col-xs-12">
+									<div class="member-details">
+										<p>좋은 주인님을 찾습니다.</p>
+										<ul class="member-socials">
+											<li><a href="amphi@naver.com"><i class="fa fa-envelope fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- //섹션3 -->
+							
+							<!-- 섹션4 -->
+							<div class="team-member pb-60">
+								<div class="col-md-3 col-sm-3 col-xs-12 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 member-thumb text-center">
+									<img class="img-responsive img-center" src="img/team/cat1.jpg" alt="" />
+									<h4>뱅갈4</h4>
+								</div>
+								<div class="col-md-7 col-sm-7 col-xs-12">
+									<div class="member-details">
+										<p>좋은 주인님을 찾습니다.</p>
+										<ul class="member-socials">
+											<li><a href="amphi@naver.com"><i class="fa fa-envelope fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
+											<li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- //섹션4 -->
+					
+						</div>
+					</div>
+					
+					<!-- 분양받은 사람들 의견 -->
+					<div id="testimonial" class="bg-dark">
+						<div class="container"><!--컨테이너-->
+						
+							<div class="row mt-50 mt-xs-20">
+								<div class="col-md-12 text-center section-line-white">
+									<h3>클라이언트들의 말들</h3>
+								</div>
+							</div>
+							
+							<!--증언 스타트-->
+							<div class="row fullwidth-testimonial-slider bg-dark-80 pt-50 pb-100">
+							
+								<!--섹션1-->
+								<div class="col-md-8 col-md-offset-2 text-center single-testimonial">
+									<div class="section-icon"><span class="icon-quote"></span></div>
+									<blockquote class="testimonial">
+										<p>뱅갈들 너무 이쁩니다.
+										</p>
+										<footer class="testimonial-author">Jason</footer>
+										<ul class="list-unstyled pt-20">
+											<li><a href="#"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-linkedin"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a>
+											</li>
+										</ul>
+									</blockquote>
+								</div>
+								<!--//섹션1-->
+								
+								<!--섹션2-->
+								<div class="col-md-8 col-md-offset-2 text-center single-testimonial">
+									<div class="section-icon"><span class="icon-quote"></span></div>
+									<blockquote class="testimonial">
+										<p>친화력이 강한 고양이 입니다.
+										</p>
+										<footer class="testimonial-author">Maverick</footer>
+										<ul class="list-unstyled pt-20">
+											<li><a href="#"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-linkedin"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a>
+											</li>
+										</ul>
+									</blockquote>
+								</div>
+								<!--//섹션2-->
+								
+								<!--섹션3-->
+								<div class="col-md-8 col-md-offset-2 text-center single-testimonial">
+									<div class="section-icon"><span class="icon-quote"></span></div>
+									<blockquote class="testimonial">
+										<p>요새 사료를 너무 조금 먹습니다...속상하네요
+										</p>
+										<footer class="testimonial-author">luke skywalker</footer>
+										<ul class="list-unstyled pt-20">
+											<li><a href="#"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-linkedin"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a>
+											</li>
+										</ul>
+									</blockquote>
+								</div>
+								<!--//섹션3-->
+								
+								<!--섹션4-->
+								<div class="col-md-8 col-md-offset-2 text-center single-testimonial">
+									<div class="section-icon"><span class="icon-quote"></span></div>
+									<blockquote class="testimonial">
+										<p>볼때마다 기분이 좋아집니다. 
+										</p>
+										<footer class="testimonial-author">joyce</footer>
+										<ul class="list-unstyled pt-20">
+											<li><a href="#"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-linkedin"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a>
+											</li>
+										</ul>
+									</blockquote>
+								</div>
+								<!--//섹션4-->
+								
+							</div>
+							 <!--//증언 스타트-->
+						</div><!--//컨테이너-->
+					</div>
+					 <!--//분양받은 사람들 의견 -->
+					 
+					<!-- 뱅갈고양이 로고 --> 
+					<div class="small-section pt-0 pb-0">
+						<div class="container">
+							<div class="row mt-10 mb-10">
+								<div class="col-md-11 col-md-offset-1">
+									<div class="small-carousel owl-carousel">
+										<div class="logo-item"><img src="img/clients/logo-1.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-2.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-3.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-4.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-5.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-6.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-7.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-8.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-9.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-10.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-11.png" alt=""></div>
+										<div class="logo-item"><img src="img/clients/logo-12.png" alt=""></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- //뱅갈고양이 로고 -->
+					
+				</section>
+				<!--//분양고양이 -->
+				
+				<hr>
+				
+				<!--메일-->
+				<section id="pricing">
+
+					<!-- start email subscribe -->
+					<div id="email-subscribe" class="container-full"><!--이메일 보내기-->
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"><!--패널-->
+									<div class="panel panel-default"><!--패널디폴트-->
+									
+										<div title="Click Here" class="panel-heading pb-20 pt-20" role="tab" id="headingOne">
+											<h4 class="panel-title heading-font">   
+												<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												<i class="fa fa-envelope"></i> 이메일을 보내주세요.
+												</a>
+											</h4>
+										</div>
+										
+										<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne"><!--패널콜렙스-->
+											<div id="subscribe" class="small-section bg-dark-80">
+												<div class="col-md-8 col-md-offset-2 text-center">
+													<!--이메일폼-->
+													<div class="newslatter">
+														<form id="mc-form">
+															<label class="label-style" for="mce-EMAIL"></label>
+															<input type="email" class="form-control" id="mce-EMAIL"
+																placeholder="Enter your email here ..."
+																onfocus="if(this.value==this.defaultValue)this.value='';" 
+																onblur="if(this.value=='')this.value=this.defaultValue;">
+															<button class="btn btn-coffee btn-medium"><i class="fa fa-chevron-right"></i> </button>
+														</form>
+														<!--//이메일폼-->
+													</div>
+												</div>
+											</div>
+										</div><!--//패널콜렙스-->
+										
+									</div><!--//패널디폴트-->
+								</div><!--//패널-->
+							</div>
+						</div><!--row-->
+					</div><!--이메일 보내기-->			
+				</section>
+				<!--//엔드메일 -->
+				
+				<!--블로그 섹션-->
+				<section id="blog" class="bg-light pb-50">
+					<div class="container"><!--컨테이너-->
+					
+						<div class="row mt-20 mt-xs-10">
+							<div class="col-md-12 text-center">
+								<h3>블로그 포스트</h3>
+								<div class="section-line"></div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center mt-10 mt-xs-10">
+								<p> 뱅갈들의 이야기
+								</p>
+							</div>
+						</div>
+						
+					  <div class="row blog-masonry mt-60 mt-xs-40"><!--블로그 나열-->
+					  
+							<!--섹션1-->
+							<div class="col-md-4 col-sm-6 col-xs-12 mb-xs-100 post-masonry mb-40">
+								<div class="blog-item small">
+									<div class="blog-image">
+										<div class="entry-image">
+											<div class="entry-mark"></div>
+											<div class="entry-action">
+												<span><a href="#"><i class="fa fa-eye"></i></a></span>
+											</div>
+											<img class="img-responsive" src="img/blog/blog-1.jpg" alt="">
+										</div>
+									</div>
+									<div class="blog-info">
+										<div class="blog-info-inner">
+											<div class="blog-title">
+												<h4><a href="blog-detail.html">네이버 블로그</a></h4>
+												<br>
+												<a href="blog-single.html" target="_blank" class="btn btn-coffee btn-border-w">blog</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--//섹션1-->
+							
+							<!--섹션2-->
+							<div class="col-md-4 col-sm-6 col-xs-12 mb-xs-100 post-masonry mb-40">
+								<div class="blog-item small">
+									<div class="blog-image">
+										<div class="entry-image">
+											<div class="entry-mark"></div>
+											<div class="entry-action">
+												<span><a href="#"><i class="fa fa-eye"></i></a></span>
+											</div>
+											<img class="img-responsive" src="img/blog/blog-2.jpg" alt="">
+										</div>
+									</div>
+									<div class="blog-info">
+										<div class="blog-info-inner">
+											<div class="blog-title">
+												<h4><a href="blog-detail.html">네이버 블로그</a></h4>
+												<br>
+												<a href="blog-single-left-sidebar.html" target="_blank" class="btn btn-coffee btn-border-w">blog</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--//섹션2-->
+							
+							<!--섹션3-->
+							<div class="col-md-4 col-sm-6 col-xs-12 mb-xs-100 hidden-sm post-masonry mb-40">
+								<div class="blog-item small">
+									<div class="blog-image">
+										<div class="entry-image">
+											<div class="entry-mark"></div>
+											<div class="entry-action">
+												<span><a href="#"><i class="fa fa-eye"></i></a></span>
+											</div>
+											<img class="img-responsive" src="img/blog/blog-3.jpg" alt="">
+										</div>
+									</div>
+									<div class="blog-info">
+										<div class="blog-info-inner">
+											<div class="blog-title">
+												<h4><a href="blog-detail.html">네이버 블로그</a></h4>
+												<br>
+												<a href="blog-single-no-sidebar.html" target="_blank" class="btn btn-coffee btn-border-w">blog</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--//섹션3-->
+						</div><!--//블로그 나열-->
+						
+						<div class="row mt-xs-50  mt-xxs-0 mt-100">
+							<div class="col-md-12 text-center"><a target="_blank" href="#" class="btn btn-coffee btn-border btn-large">All Post</a></div>
+						</div>
+						
+					</div><!--//컨테이너-->
+				</section>
+				<!--//블로그 섹션-->
+				
+				<!--컨텍트 이메일-->
+				<section id="contacts" class="pt-0">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 text-center mt-60 mt-xs-30">
+								<h3> <b>Contact </b>Us</h3>
+								<div class="section-line"></div>
+							</div>
+						</div>
+						<div class="row mt-20">
+							<div class="col-md-8 col-md-offset-2 text-center">
+								<p> 궁금하신 사항이 있으시면 메일주세요 :)	
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 mt-40 mb-40">
+								<!-- contact from -->
+								 <form id="contact-form" method="post" action="mail.php" >
+									 <div class="form-group">
+										 <input type="text" placeholder="성함" class="form-control" name="name" id="name">
+									 </div>
+									 <div class="form-group">
+										 <input type="email" placeholder="이메일" class="form-control" name="email" id="email">
+									 </div>
+									 <div class="form-group">
+										 <input type="text" placeholder="제목" class="form-control" name="subject" id="subject">
+									 </div>
+									 <div class="form-group">
+										 <textarea rows="6" placeholder="메시지" class="form-control" name="message" id="message"></textarea>
+									 </div>
+									 <div id="mail-success" class="success">
+										 감사합니다. 확인 후 메일드리겠습니다. :)
+									 </div>
+									<div id="mail-fail" class="error">
+										 죄송합니다. 다시 한번 확인해주시기 바랍니다. :)
+									 </div>
+									 <div id="cf-submit">
+										 <input id="contact-submit" class="btn btn-transparent" value="전송">
+									 </div>
+								 </form>
+							</div>
+						</div>
+					</div><!--//컨텍트 이메일-->
+
+					<div class="container-full"><!--컨테이너 풀-->
+						<div class="row"><!--로우-->
+							<div class="col-md-12">
+								<div class="panel-group" id="accordion-map" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default"><!--패널디폴트-->
+										<div title="Click Here" class="panel-heading pt-20 pb-20" role="tab" id="headingTwo">
+											<h4 class="panel-title heading-font">
+												<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+												찾아가는길 
+												</a>
+											</h4>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+											<!--구글맵 시작-->
+											<div class="map-holder">
+												<div class="addressholder col-md-10 col-sm-12 col-xs-12 col-md-offset-1 text-center">
+													<div class="col-md-4 col-sm-4 col-xs-4 contact-item pt-20">
+														<div class="icon icon--phone"></div>
+														<p>(031)-204-3119</p>
+													</div>
+													<div class="col-md-4 col-sm-4 col-xs-4 contact-item pt-20">
+														<div class="icon icon--map-marker"></div>
+														<p>경기도 수원시 영통구 망포동 543-2</p>
+													</div>
+													<div class="col-md-4 col-sm-4 col-xs-4 contact-item pt-20">
+														<div class="icon icon--envelope"></div>
+														<p><a href="mailto:amphi@naver.com" target="_blank">amphi@naver.com</a></p>
+													</div>
+												</div>
+												<!--맵 스타트-->
+												<div id="map"></div>
+												<!--//맵 엔드-->
+											</div>
+											<!--//구글맵 끝-->
+										</div>
+									</div><!--//패널디폴트-->
+								</div>
+							</div>
+						</div><!--//로우-->
+					</div><!--//컨테이너 풀 엔드-->
+					
+				</section>
+				<!--//컨텍트 섹션 완료-->
+				
+				<!-- 페이지 푸터 -->
+				<footer class="page-footer">
+					
+					<!-- 페이지 푸터 탑 -->
+					<div class="footer-top pt-100 pb-100">
+						<div class="container text-center">
+							<a href="" data-target="#top" class="logo footer-logo wow fadeInDown animated" data-wow-duration="1s" > 
+							<img src="img/logo_lite.png" alt="logo"> </a> 
+							<!-- 푸터 소셜 링크 -->
+							<div class="footer-social-links">
+								<a class="heading-font tooltip-top" data-tooltip="Facebook" href="#"  target="_blank"><i class="fa fa-facebook"></i></a>
+								<a class="heading-font tooltip-top" data-tooltip="Twitter"  href="#"  target="_blank"><i class="fa fa-twitter"></i></a>
+								<a class="heading-font tooltip-top" data-tooltip="YouTube"  href="#"  target="_blank"><i class="fa fa-youtube"></i></a>
+								<a class="heading-font tooltip-top" data-tooltip="Google+"  href="#"  target="_blank"><i class="fa fa-google-plus"></i></a>
+								<a class="heading-font tooltip-top" data-tooltip="Linkedin"  href="#"  target="_blank"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- 페이지 바닥 -->
+					<div class="footer-bottom pt-20 pb-10">
+						<div class="container text-center">
+							<div class="copy-right">
+								<p class="heading-font">© 2016. Ara Cattery All Rights Reserved.</p>
+							</div>
+							<a href="#top" class="heading-font scroll scroll-to-top tooltip-top" data-tooltip="TOP"><i class="fa fa-angle-up"></i></a>
+						</div>
+					</div>
+				</footer>
+				<!--//페이지 푸터 끝-->
+				
+			</div><!--메인페이지끝-->
+		
+
+		
+  		<!--자바스크립트-->
+
+  		<!--벤더 제이쿼리 -->
+        <script src="js/vendor/jquery-2.1.3.min.js"></script>
+		
+		<!-- 부트스트랩 -->
+        <script src="js/bootstrap.min.js"></script> 
+		
+		<!-- sommthscrolling -->
+        <script src="js/smoothscroll.js"></script>
+		
+		<!-- 플로그인 -->
+        <script src="js/plagins.js"></script>
+		
+        <!-- 인클루드 타이퍼 -->
+        <script src="js/typer.js"></script>
+		
+		<!-- 파이차트 -->
+        <script src="js/easyPieChart.js"></script>
+		
+		<!-- owl 카루셀 -->
+        <script src="js/owl.carousel.min.js"></script>
+		
+		<!-- isotope -->
+        <script src="js/isotope.pkgd.min.js"></script>
+
+       <!-- 매그니픽 팝업 -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+		
+		<!-- 인클루드 핏비드 -->
+        <script src="js/jquery.fitvids.js"></script>
+		
+		<!-- 에이젝스침프 -->
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+		
+	    <!-- 구글맵 -->
+        <script src="http://maps.google.com/maps/api/js?sensor=false&amp;amp;language=en"></script>
+		
+		<!-- 직접짠 메인 스크립트 -->
+        <script src="js/main.js"></script>
+		
+
+
+        <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+
+    </body>
+</html>
